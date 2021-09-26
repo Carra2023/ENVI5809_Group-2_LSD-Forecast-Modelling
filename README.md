@@ -26,9 +26,15 @@ Build a predictive model that can forecast 7- day longshore sediment transport t
 3. What are the magnitudes of LSD from a 7 day forecast? And what impact does this have on the human environment?
 
 
-## Links to dataset
+## Links to datasets
 
-General NetCDF Files
+NSW Nearshore Wave Forecast 
+https://forecast.waves.nsw.gov.au/ 
+
+Australian Bathymetric Topographic Grid 2009 
+https://data.gov.au/data/dataset/australian-bathymetry-and-topography-grid-june-2009
+
+General NetCDF Files from Manly Hydraulic Labs
 http://thredds.aodn.org.au/thredds/catalog/NSW-OEH/Manly_Hydraulics_Laboratory/Wave/Sydney/catalog.html
 
 7 Day forecast and hindcast data from 2011 provided privately by Manly Hydraulics lab via email communication.
@@ -36,9 +42,23 @@ http://thredds.aodn.org.au/thredds/catalog/NSW-OEH/Manly_Hydraulics_Laboratory/W
 Data Table Summary
 ![image](https://user-images.githubusercontent.com/90363570/134794416-55b121e1-8051-4668-869b-4a2d0e74d263.png)
 
+### Example of data set from wave buoy data offshore Sydney and graph plotting 7 day forecast against real time observations. 
+![image](https://user-images.githubusercontent.com/90363570/134794932-6ffcdebc-61ae-4192-8792-7474362d6b34.png)
 
 ## Summary of Analysis
+This project is designed so that the final model and code will be customizable and we hope to consider it a blueprint model that can be applied to any region around the world with nearshore wave data. 
+Wave forecast data (including wave height, direction and period) will be imported to a Jupyter notebook as net CDF files. 
+The bathymetric data (Source shown in Figure 1) will be used to extract a contour line at 10m depth as a shapefile and converted to points using a spline funtcion.
+The angle of incidence is computed between the contour line and the wave direction, using cKD Tree function to create a search mask and average the data points out for a more representative value. 
+Using Airy's linear wave theory calculation, the long shore drift and the divergence of drag are calculated along the contour to identify the regions in accretion and the regions in erosion. 
+Finally, these sediment distributions will be represented visually in scatter plots.
 
+![image](https://user-images.githubusercontent.com/90363570/134795135-59dfae34-283c-43ac-bbd1-81fd15c67e2d.png)
+
+![image](https://user-images.githubusercontent.com/90363570/134794969-b53fc805-801d-472b-a5dd-78beb50b2f10.png)
+
+
+## Link to Project Repo...
 
 
 
