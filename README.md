@@ -42,8 +42,13 @@ http://thredds.aodn.org.au/thredds/catalog/NSW-OEH/Manly_Hydraulics_Laboratory/W
 Data Table Summary
 ![image](https://user-images.githubusercontent.com/90363570/134794416-55b121e1-8051-4668-869b-4a2d0e74d263.png)
 
-### Example of data set from wave buoy data offshore Sydney and graph plotting 7 day forecast against real time observations. 
+### Example of data set from wave buoy data offshore Sydney, showing prevailing wave height and direction. Below is a graph plotting the 7 day wave height and direction forecast against real time observations. (Graph and Image Source: Manly Hydraulics Lab Website: https://forecast.waves.nsw.gov.au/index.php?init=1&cont=10&zoom=7&mod=20
 ![image](https://user-images.githubusercontent.com/90363570/134794932-6ffcdebc-61ae-4192-8792-7474362d6b34.png)
+
+
+
+
+
 
 ## Summary of Analysis
 This project is designed so that the final model and code will be customizable and we hope to consider it a blueprint model that can be applied to any region around the world with nearshore wave data. 
