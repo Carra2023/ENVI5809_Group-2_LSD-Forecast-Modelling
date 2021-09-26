@@ -2,31 +2,31 @@
 Understanding short term wave climate effects on regional sediment transport using nearshore wave forecast models
 ![image](https://user-images.githubusercontent.com/90363570/134794322-d775cbea-823a-4597-880e-e816046e7241.png)
 
-Project Collaborators and contact details
+# Project Collaborators and contact details
 
 Caitlin May - cmay3858@uni.sydney.edu.au
-Carra Williams - carra.williams@sydney.edu.au 
-Ian Ahern - iahe9611@uni.sydney.edu.au
-Nadine Hargreaves - nhar2545@uni.sydney.edu.au
-![image](https://user-images.githubusercontent.com/90363570/134794363-e1837d98-83db-43c9-ace2-57aa57f7d2a8.png)
 
-Research Objectives:
+Carra Williams - carra.williams@sydney.edu.au 
+
+Ian Ahern - iahe9611@uni.sydney.edu.au
+
+Nadine Hargreaves - nhar2545@uni.sydney.edu.au
+
+
+## Research Objectives:
 
 Build a predictive model that can forecast 7- day longshore sediment transport to highlight regions and magnitudes of accretion and erosional ‘hotspots’ around Tweed Heads and Collaroy, NSW.
-![image](https://user-images.githubusercontent.com/90363570/134794398-5a4848e9-a834-4264-b480-21ab5442dc5e.png)
 
 
-Scientific Question/Hypothesis
 
-Research Questions: 
+## Scientific Questions/Hypothesis
 
 1. Can we use predictive forecast models for longshore sediment transport to identify the locations and magnitudes of erosional ‘hotspots’ along the NSW Coast?
 2. Can a predictive model be used to forecast 7- day longshore sediment transport for two highly urbanised regions on the NSW coastline. 
 3. What are the magnitudes of LSD from a 7 day forecast? And what impact does this have on the human environment?
-![image](https://user-images.githubusercontent.com/90363570/134794403-6e6524eb-4cdb-4406-9c79-437b704b33ac.png)
 
 
-Links to dataset
+## Links to dataset
 
 General NetCDF Files
 http://thredds.aodn.org.au/thredds/catalog/NSW-OEH/Manly_Hydraulics_Laboratory/Wave/Sydney/catalog.html
@@ -37,7 +37,7 @@ Data Table Summary
 ![image](https://user-images.githubusercontent.com/90363570/134794416-55b121e1-8051-4668-869b-4a2d0e74d263.png)
 
 
-Summary of Analysis
+## Summary of Analysis
 
 
 
