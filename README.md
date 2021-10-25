@@ -51,12 +51,20 @@ Data Table Summary
 
 
 ## Summary of Analysis
+#Original
 This project is designed so that the final model and code will be customizable and we hope to consider it a blueprint model that can be applied to any region around the world with nearshore wave data. 
 Wave forecast data (including wave height, direction and period) will be imported to a Jupyter notebook as net CDF files. 
 The bathymetric data (Source shown in Figure 1) will be used to extract a contour line at 10m depth as a shapefile and converted to points using a spline funtcion.
 The angle of incidence is computed between the contour line and the wave direction, using cKD Tree function to create a search mask and average the data points out for a more representative value. 
 Using Airy's linear wave theory calculation, the long shore drift and the divergence of drag are calculated along the contour to identify the regions in accretion and the regions in erosion. 
 Finally, these sediment distributions will be represented visually in scatter plots.
+
+## Summary of Analysis
+#Revised
+This project is designed so that the final model and code will be customizable and we hope to consider it a blueprint model that can be applied to any region around the world with nearshore wave data. 
+Wave forecast data (including wave height, direction and period) will be imported to a Jupyter notebook as net CDF files, and the bathymetric data (Source shown in Figure 1) will be used to extract a contour line at 10m depth as a shapefile.
+The angle of incidence is computed between the contour line and the wave direction, and then using Airy's linear wave theory calculations, the divergence of drag and then the long shore drift are calculated along the contour to identify the regions in accretion and the regions in erosion. 
+Finally, these sediment distributions will be represented visually in scatter plots and through time on an interactive map.
 
 ![image](https://user-images.githubusercontent.com/90363570/134795135-59dfae34-283c-43ac-bbd1-81fd15c67e2d.png)
 
