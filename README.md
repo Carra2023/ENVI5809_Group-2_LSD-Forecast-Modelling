@@ -22,8 +22,8 @@ Build a predictive model that can forecast 7- day longshore sediment transport t
 ## Scientific Questions/Hypothesis
 
 1. Can we use predictive forecast models for longshore sediment transport to identify the locations and magnitudes of erosional ‘hotspots’ along the NSW Coast?
-2. Can a predictive model be used to forecast 7- day longshore sediment transport for two highly urbanised regions on the NSW coastline. 
-3. What are the magnitudes of LSD from a 7 day forecast? And what impact does this have on the human environment?
+2. Can a predictive model be used to forecast 7- day longshore sediment transport for two highly urbanised regions on the NSW coastline? 
+3. What are the magnitudes of LSD from a 7-day forecast? And what impact does this have on the human environment?
 
 
 ## Links to datasets
