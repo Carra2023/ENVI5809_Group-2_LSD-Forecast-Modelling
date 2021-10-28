@@ -40,9 +40,12 @@ http://thredds.aodn.org.au/thredds/catalog/NSW-OEH/Manly_Hydraulics_Laboratory/W
 7 Day forecast and hindcast data from 2011 provided privately by Manly Hydraulics lab via email communication.
 
 Data Table Summary
-![image](https://user-images.githubusercontent.com/90363570/134794416-55b121e1-8051-4668-869b-4a2d0e74d263.png)
+![image](https://user-images.githubusercontent.com/90363570/139185469-d1dd800d-a492-41b1-9cf4-72a6a847f344.png)
 
-### Example of data set from wave buoy data offshore Sydney, showing prevailing wave height and direction. Below is a graph plotting the 7 day wave height and direction forecast against real time observations. (Graph and Image Source: Manly Hydraulics Lab Website: https://forecast.waves.nsw.gov.au/index.php?init=1&cont=10&zoom=7&mod=20
+
+Top Image: Example of data set from wave buoy data offshore Sydney, showing prevailing wave height and direction. 
+
+Bottom Image: Graph plotting the 7 day wave height and direction forecast against real time observations. (Graph and Image Source: Manly Hydraulics Lab Website: https://forecast.waves.nsw.gov.au/index.php?init=1&cont=10&zoom=7&mod=20)
 ![image](https://user-images.githubusercontent.com/90363570/134794932-6ffcdebc-61ae-4192-8792-7474362d6b34.png)
 
 
@@ -59,6 +62,8 @@ The angle of incidence is computed between the contour line and the wave directi
 Using Airy's linear wave theory calculation, the long shore drift and the divergence of drag are calculated along the contour to identify the regions in accretion and the regions in erosion. 
 Finally, these sediment distributions will be represented visually in scatter plots.
 
+![image](https://user-images.githubusercontent.com/90363570/134794969-b53fc805-801d-472b-a5dd-78beb50b2f10.png)
+
 ## Summary of Analysis
 #Revised
 This project is designed so that the final model and code will be customizable and we hope to consider it a blueprint model that can be applied to any region around the world with nearshore wave data. 
@@ -66,9 +71,12 @@ Wave forecast data (including wave height, direction and period) will be importe
 The angle of incidence is computed between the contour line and the wave direction, and then using Airy's linear wave theory calculations, the divergence of drag and then the long shore drift are calculated along the contour to identify the regions in accretion and the regions in erosion. 
 Finally, these sediment distributions will be represented visually in scatter plots and through time on an interactive map.
 
+![image](https://user-images.githubusercontent.com/90363570/139185107-158ccc95-76a9-4247-b097-48ad1d2ca3da.png)
+
+
 ![image](https://user-images.githubusercontent.com/90363570/134795135-59dfae34-283c-43ac-bbd1-81fd15c67e2d.png)
 
-![image](https://user-images.githubusercontent.com/90363570/134794969-b53fc805-801d-472b-a5dd-78beb50b2f10.png)
+
 
 
 ## Link to Project Repo...
