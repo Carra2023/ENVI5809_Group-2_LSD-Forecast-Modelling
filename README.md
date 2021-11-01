@@ -1,4 +1,4 @@
-# ENVI5809 Group 2: Longshore Drift Forecast Modelling
+# ENVI5809 Group 2: Longshore Drift Hindacst and Forecast Modelling
 Understanding short term wave climate effects on regional sediment transport using nearshore wave forecast models
 ![image](https://user-images.githubusercontent.com/90363570/134794322-d775cbea-823a-4597-880e-e816046e7241.png)
 
@@ -21,9 +21,10 @@ Build a predictive model that can forecast 7- day longshore sediment transport t
 
 ## Scientific Questions/Hypothesis
 
-1. Can we use predictive forecast models for longshore sediment transport to identify the locations and magnitudes of erosional ‘hotspots’ along the NSW Coast?
-2. Can a predictive model be used to forecast 7- day longshore sediment transport for two highly urbanised regions on the NSW coastline? 
-3. What are the magnitudes of LSD from a 7-day forecast? And what impact does this have on the human environment?
+1.	Can we build a blueprint predictive forecast model for longshore sediment transport to identify the locations and magnitudes of accretional and erosional ‘hotspots’ for two highly urbanised regions along the NSW coast? 
+2.	Can a hindcast model of nearshore wave data from two periods of time at the same location highlight the need for predictive wave and sediment transport modelling?
+3.	What are the magnitudes of LSD from a 7-day forecast? And what impact does this have on the human environment? 
+
 
 
 ## Links to datasets
